@@ -224,7 +224,7 @@
 				datatype should document an order for the device indicated by the
 				QDM category and its corresponding value set.
 				NOTE: The start and
-				stop datetime of Device, Order reflects the “author time” of the
+				stop datetime of Device, Order reflects the "author time" of the
 				record in the Quality Reporting Document Architecture (QRDA). This
 				corresponds to when the order was signed.
 			</xs:documentation>
@@ -358,7 +358,7 @@
 				pulmonary function testing, vascular laboratory
 				testing, and others.
 				NOTE: The start and stop datetime of Device,
-				Order reflects the “author time” of the record in the Quality
+				Order reflects the "author time" of the record in the Quality
 				Reporting Document Architecture (QRDA). This corresponds to when the
 				order was signed.
 			</xs:documentation>
@@ -483,7 +483,7 @@
 				its corresponding value set has been
 				recommended.
 				NOTE: The start and stop datetime of Device, Order
-				reflects the “author time” of the record in the Quality Reporting
+				reflects the "author time" of the record in the Quality Reporting
 				Document Architecture (QRDA). This corresponds to when the order was
 				signed. Thus, the startDatetime and stopDatetime refer to the same point in time.
 			</xs:documentation>
@@ -658,7 +658,7 @@
 				the QDM category and its
 				corresponding value set.
 				NOTE: The start and
-				stop datetime of Device, Order reflects the “author time” of the
+				stop datetime of Device, Order reflects the "author time" of the
 				record in the Quality Reporting Document Architecture (QRDA). This
 				corresponds to when the order was signed. Thus, the Start Datetime 
 				and Stop Datetime refer to the same point in time.
@@ -732,8 +732,8 @@
 				indicated by the QDM category
 				and its corresponding value set.
 				NOTE:
-				The start and stop datetime of Device, Order reflects the “author
-				time” of the record in the Quality Reporting Document Architecture
+				The start and stop datetime of Device, Order reflects the "author
+				time" of the record in the Quality Reporting Document Architecture
 				(QRDA). This corresponds to when the order was signed. Thus, the 
 				Start Datetime and Stop Datetime refer to the same point in time.
 			</xs:documentation>
@@ -856,7 +856,7 @@
 				by the QDM category and
 				its corresponding value set.
 				NOTE: The start
-				and stop datetime of Device, Order reflects the “author time” of the
+				and stop datetime of Device, Order reflects the "author time" of the
 				record in the Quality Reporting Document Architecture (QRDA). This
 				corresponds to when the order was signed. Thus, the 
 				Start Datetime and Stop Datetime refer to the same point in time.
@@ -1079,7 +1079,7 @@
 				medications in electronic format
 				(perhaps a Personal Health Record),
 				patient attestation of
-				“medication taken” may be available.
+				"medication taken" may be available.
 			</xs:documentation>
 		</xs:annotation>
 		<xs:complexContent>
@@ -1131,7 +1131,7 @@
 				category and its corresponding value
 				set.
 				NOTE: The start and stop datetime of Device, Order reflects the
-				“author time” of the record in the Quality Reporting Document
+				"author time" of the record in the Quality Reporting Document
 				Architecture (QRDA). This corresponds to when the order was signed.
 				Thus, the Start Datetime and Stop Datetime refer to the same point in time.
 			</xs:documentation>
@@ -1159,7 +1159,7 @@
 		<xs:annotation>
 			<xs:documentation>
 				Data elements that meet this criterion indicate the
-				patient’s care experience, usually measured with a
+				patient's care experience, usually measured with a
 				validated survey
 				tool. The most common tool is the
 				Consumer Assessment of Healthcare
@@ -1194,7 +1194,7 @@
 			<xs:documentation>
 				The Patient Characteristic Birthdate data element
 				should document the
-				patient’s date of birth.
+				patient's date of birth.
 				Note: Patient
 				Characteristic Birthdate is fixed to LOINC code 21112-8
 				(Birth date)
@@ -1244,7 +1244,7 @@
 				should document that
 				the patient is deceased.
 				Note: Patient
-				Characteristic Expired is fixed to SNOMED-CT® code
+				Characteristic Expired is fixed to SNOMED-CT(R) code
 				419099009 (Dead)
 				and therefore cannot be further qualified with a
 				value set.
@@ -1276,7 +1276,7 @@
 			<xs:documentation>
 				Data elements that meet criteria using this
 				datatype should document the
-				patient’s race.
+				patient's race.
 			</xs:documentation>
 		</xs:annotation>
 		<xs:sequence/>
@@ -1342,7 +1342,7 @@
 				corresponding value set. The datatype is
 				expected to be used to
 				identify orders such as "vital signs,
-				frequency every x hours,” or
+				frequency every x hours," or
 				"pedal pulse check, frequency every 15
 				minutes for x hours."
 				NOTE: startDatetime and
@@ -1479,7 +1479,7 @@
 				QDM category and its
 				corresponding value set.
 				NOTE: The start and stop
-				datetime of Device, Order reflects the “author time” of the record
+				datetime of Device, Order reflects the "author time" of the record
 				in the Quality Reporting Document Architecture (QRDA). This
 				corresponds to when the order was signed.
 				Thus, the Start Datetime and Stop Datetime refer to the same point in time.
@@ -1666,7 +1666,7 @@
 				QDM category and its
 				corresponding value set.
 				NOTE: The start and stop
-				datetime of Device, Order reflects the “author time” of the record
+				datetime of Device, Order reflects the "author time" of the record
 				in the Quality Reporting Document Architecture (QRDA). This
 				corresponds to when the order was signed.
 				Thus, the Start Datetime and Stop Datetime refer to the same point in time.

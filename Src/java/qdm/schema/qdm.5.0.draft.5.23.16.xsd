@@ -64,7 +64,7 @@
 		<xs:annotation>
 			<xs:documentation>
 				Data elements that meet this criterion indicate the
-				patient’s care experience, usually measured with a
+				patient's care experience, usually measured with a
 				validated survey
 				tool. The most common tool is the
 				Consumer Assessment of Healthcare
@@ -1274,7 +1274,7 @@
 				medications in electronic format
 				(perhaps a Personal Health Record),
 				patient attestation of
-				“medication taken” may be available.
+				"medication taken" may be available.
 				NOTE: "cumulative medication duration" has been removed,
 				the use of CMD(interval) is recommended.
 			</xs:documentation>
@@ -1391,7 +1391,7 @@
 				corresponding value set. The datatype is
 				expected to be used to
 				identify orders such as "vital signs,
-				frequency every x hours,” or
+				frequency every x hours," or
 				"pedal pulse check, frequency every 15
 				minutes for x hours."
 				NOTE: startDatetime and

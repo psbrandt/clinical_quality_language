@@ -70,7 +70,7 @@
 	<xs:complexType name="PatientCharacteristicBirthdate">
 		<xs:annotation>
 			<xs:documentation>
-				The Patient Characteristic Birthdate data element should document the patient’s date of birth.
+				The Patient Characteristic Birthdate data element should document the patient's date of birth.
 				Note: Patient Characteristic Birthdate is fixed to LOINC code 21112-8 (Birth date) and 
 				therefore cannot be further qualified with a value set.
 			</xs:documentation>
@@ -90,8 +90,8 @@
 				document that the patient is a clinical trial participant 
 				for the clinical trial indicated by the QDM category and its corresponding value set.
 				Timing: The Relevant Period addresses:
-					startTime – The time the clinical trial began
-					stopTime – The time the clinical trial ended
+					startTime - The time the clinical trial began
+					stopTime - The time the clinical trial ended
 			</xs:documentation>
 		</xs:annotation>
 		<xs:complexContent>
@@ -119,7 +119,7 @@
 		<xs:annotation>
 			<xs:documentation>
 				The Patient Characteristic Expired data element should document that the patient is deceased.
-				Note: Patient Characteristic Expired is fixed to SNOMED-CT® code 419099009 (Dead) and 
+				Note: Patient Characteristic Expired is fixed to SNOMED-CT(R) code 419099009 (Dead) and
 				therefore cannot be further qualified with a value set.
 			</xs:documentation>
 		</xs:annotation>
@@ -139,8 +139,8 @@
 				document that the patient has one or more of the payers 
 				indicated by the QDM category and its corresponding value set.
 				Timing: The Relevant Period addresses:
-					startTime – The first day of insurance coverage with the referenced payer
-					stopTime – The last day of insurance coverage with the referenced payer
+					startTime - The first day of insurance coverage with the referenced payer
+					stopTime - The last day of insurance coverage with the referenced payer
 			</xs:documentation>
 		</xs:annotation>
 		<xs:complexContent>
@@ -154,7 +154,7 @@
 	<xs:complexType name="PatientCharacteristicRace">
 		<xs:annotation>
 			<xs:documentation>
-				Data elements that meet criteria using this datatype should document the patient’s race.
+				Data elements that meet criteria using this datatype should document the patient's race.
 			</xs:documentation>
 		</xs:annotation>
 		<xs:complexContent>
@@ -190,7 +190,7 @@
 		<xs:annotation>
 			<xs:documentation>
 				Data elements that meet this criterion indicate the
-				patient’s care experience, usually measured with a
+				patient's care experience, usually measured with a
 				validated survey
 				tool. The most common tool is the
 				Consumer Assessment of Healthcare
@@ -329,8 +329,8 @@
 				criterion, there must be documentation of a care goal as defined by
 				the Care Goal QDM category and its corresponding value set.
 				Timing: The Relevant Period references the period between:
-					startTime – when the goal is recorded, and therefore should be considered effective,
-					stopTime – when the target outcome is expected to be met
+					startTime - when the goal is recorded, and therefore should be considered effective,
+					stopTime - when the target outcome is expected to be met
 			</xs:documentation>
 		</xs:annotation>
 		<xs:complexContent>
@@ -376,8 +376,8 @@
 				antithrombotic device has been placed on the patient's legs to
 				prevent thromboembolism, or a cardiac pacemaker is in place).
 				Timing: The Relevant Period addresses:
-					startTime – When the device is inserted or first used
-					stopTime – when the device is removed or last used
+					startTime - When the device is inserted or first used
+					stopTime - when the device is removed or last used
 			</xs:documentation>
 		</xs:annotation>
 		<xs:complexContent>
@@ -500,8 +500,8 @@
 				indicated by the QDM category and
 				its corresponding value set.
 				Timing: The Relevant Period addresses:
-					startTime – When the diagnostic study is initiated
-					stopTime – when the diagnostic study is completed
+					startTime - When the diagnostic study is initiated
+					stopTime - when the diagnostic study is completed
 			</xs:documentation>
 		</xs:annotation>
 		<xs:complexContent>
@@ -573,11 +573,11 @@
 				datatype should document that the encounter indicated by the QDM
 				category and its corresponding value set has been completed.
 				Timing: The Relevant Period addresses:
-					startTime – The time the encounter began (admission time)
-					stopTime – The time the encounter ended (discharge time)
+					startTime - The time the encounter began (admission time)
+					stopTime - The time the encounter ended (discharge time)
 				Timing: The Location Period addresses:
-					startTime – The time the patient arrived at the location (Facility Location Arrival time)
-					stopTime – The time the patient departed the location (Facility Location Departure time)
+					startTime - The time the patient arrived at the location (Facility Location Arrival time)
+					stopTime - The time the patient departed the location (Facility Location Departure time)
 			</xs:documentation>
 		</xs:annotation>
 		<xs:complexContent>
@@ -712,8 +712,8 @@
 				by the QDM category and its
 				corresponding value set.
 				Timing: The Relevant Period addresses:
-					startTime – The time the intervention begins
-					stopTime – The time the intervention ends
+					startTime - The time the intervention begins
+					stopTime - The time the intervention ends
 			</xs:documentation>
 		</xs:annotation>
 		<xs:complexContent>
@@ -778,9 +778,9 @@
 				category and its corresponding
 				value set was performed.
 				Timing: The Relevant Period addresses:
-					startTime – When the laboratory test is initiated (i.e., the time the specimen collection begins)
-					stopTime – when the laboratory test is completed (i.e., the time the specimen collection ends)
-				Note – the time that the result report is available is a separate 
+					startTime - When the laboratory test is initiated (i.e., the time the specimen collection begins)
+					stopTime - when the laboratory test is completed (i.e., the time the specimen collection ends)
+				Note - the time that the result report is available is a separate
 				attribute than the time of the study (specimen collection)
 			</xs:documentation>
 		</xs:annotation>
@@ -926,7 +926,7 @@
 				medications in electronic format
 				(perhaps a Personal Health Record),
 				patient attestation of
-				“medication taken” may be available.
+				"medication taken" may be available.
 			</xs:documentation>
 		</xs:annotation>
 		<xs:complexContent>
@@ -1016,7 +1016,7 @@
 				corresponding value set. The datatype is
 				expected to be used to
 				identify orders such as "vital signs,
-				frequency every x hours,” or
+				frequency every x hours," or
 				"pedal pulse check, frequency every 15
 				minutes for x hours."
 			</xs:documentation>
@@ -1041,8 +1041,8 @@
 				indicated by the QDM category and
 				its corresponding value set.
 				Timing: The Relevant Period addresses:
-					startTime – The time the physical examination activity begins
-					stopTime – The time the physical examination activity ends	
+					startTime - The time the physical examination activity begins
+					stopTime - The time the physical examination activity ends
 			</xs:documentation>
 		</xs:annotation>
 		<xs:complexContent>

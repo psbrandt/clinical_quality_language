@@ -152,7 +152,7 @@
           </xs:element>
           <xs:element name="referenceSeqId" minOccurs="0" maxOccurs="1" type="CodeableConcept">
             <xs:annotation>
-              <xs:documentation xml:lang="en">Reference identifier of reference sequence submitted to NCBI. It must match the type in the Sequence.type field. For example, the prefix, “NG_” identifies reference sequence for genes, “NM_” for messenger RNA transcripts, and “NP_” for amino acid sequences.</xs:documentation>
+              <xs:documentation xml:lang="en">Reference identifier of reference sequence submitted to NCBI. It must match the type in the Sequence.type field. For example, the prefix, "NG_" identifies reference sequence for genes, "NM_" for messenger RNA transcripts, and "NP_" for amino acid sequences.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="referenceSeqPointer" minOccurs="0" maxOccurs="1" type="Reference">
